@@ -68,8 +68,6 @@
                 {%- endif -%}
               </div>
 
-              {{ block.settings.stars_count }}
-
               {%- if block.settings.stars_count != null -%}
                 {% assign repeat_count = block.settings.stars_count %}
                 {% include 'star-count' with repeat_count %}
