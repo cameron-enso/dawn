@@ -154,15 +154,14 @@
 
 .verified_badge {
   font-size: .7em;
-  border-radius: 15px;
+  border-radius: 14px;
   display: inline-flex;
-  padding: 3px 8px;
+  padding: 2px 8px;
   background-color: rgb(var(--color-button));
 }
 
 .verified_badge__icon {
   margin-right: 4px;
-  margin-top: -2px
 }
 
 .background-none .multicolumn-card__info {
