@@ -80,6 +80,7 @@
       "settings": {
         "columns_desktop": 3,
         "column_alignment": "left",
+        "body_text_min_h": 120,
         "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
