@@ -136,11 +136,11 @@
   border-left-style: solid;
   border-left-color: rgb(var(--color-button));
   height: 100%;
-  font-size: 1.15rem;
+  font-size: 1.15em;
 }
 
 .multicolumn-card--review .multicolumn-card__attribution {
-  font-size: 1rem;
+  font-size: .8em;
 }
 
 .multicolumn-card__info {
