@@ -147,7 +147,7 @@
   padding: 2.5rem;
 }
 
-.multicolumn-card--review .multicolumn-card__info {
+.background-none .multicolumn-card--review .multicolumn-card__info {
   padding-top: none;
   padding-bottom: none;
 }
