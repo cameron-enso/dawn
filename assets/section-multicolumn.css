@@ -135,6 +135,7 @@
   border-left-width: 3px;
   border-left-style: solid;
   border-left-color: rgb(var(--color-button));
+  height: 100%;
 }
 
 .multicolumn-card__info {
