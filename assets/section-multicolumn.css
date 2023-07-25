@@ -153,6 +153,10 @@
   padding-bottom: 0;
 }
 
+.multicolumn-card__star_count {
+  margin-top: 10px;
+}
+
 .verified_badge {
   font-size: .7em;
   border-radius: 15px;

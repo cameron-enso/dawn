@@ -70,7 +70,9 @@
 
               {%- if block.settings.stars_count != null -%}
                 {% assign repeat_count = block.settings.stars_count %}
-                <span style="color: rgb(var(--color-button));">{% include 'star-count' with repeat_count %}</span>
+                <div class="multicolumn-card__star_count">
+                  <span style="color: rgb(var(--color-button));">{% include 'star-count' with repeat_count %}</span>
+                </div>
               {%- endif -%}
 
               {%- if block.settings.attribution != blank -%}
