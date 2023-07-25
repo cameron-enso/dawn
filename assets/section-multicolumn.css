@@ -134,7 +134,7 @@
 .multicolumn-card--review .multicolumn-card__info {
   border-left-width: 3px;
   border-left-style: solid;
-  border-left-color: var(--color-button);
+  border-left-color: rgb(var(--color-button));
 }
 
 .multicolumn-card__info {
