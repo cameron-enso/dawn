@@ -64,6 +64,9 @@
                 {%- if block.settings.body != blank -%}
                   <div class="rte">{{ block.settings.body }}</div>
                 {%- endif -%}
+                {%- if block.settings.attribution != blank -%}
+                  <div class="rte">{{ block.settings.attribution }}</div>
+                {%- endif -%}
               </div>
             </div>
           </li>
