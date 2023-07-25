@@ -68,6 +68,8 @@
                 {%- endif -%}
               </div>
 
+              {% assign next_index = 0 %}
+
               {%- if block.settings.stars_count != blank -%}
                 {% if forloop.index <= block.settings.stars_count %}
                   {{ forloop.index0 }} {# This will output the current index starting from 0 #}
