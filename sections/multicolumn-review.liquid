@@ -70,6 +70,8 @@
 
               {% assign next_index = 0 %}
 
+              {{ block.settings.stars_count }}
+
               {%- if block.settings.stars_count != blank -%}
                 {% if forloop.index <= block.settings.stars_count %}
                   {{ forloop.index0 }}
