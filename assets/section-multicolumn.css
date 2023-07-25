@@ -160,6 +160,10 @@
   background-color: rgb(var(--color-button));
 }
 
+.verified_badge__icon {
+  margin-right: 8px;
+}
+
 .background-none .multicolumn-card__info {
   padding-top: 0;
   padding-left: 0;
