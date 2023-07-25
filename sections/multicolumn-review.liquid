@@ -66,10 +66,11 @@
                     {{ block.settings.body }}
                   </div>
                 {%- endif -%}
-                {%- if block.settings.attribution != blank -%}
-                  <div class="rte multicolumn-card__attribution">{{ block.settings.attribution }}</div>
-                {%- endif -%}
               </div>
+
+              {%- if block.settings.attribution != blank -%}
+                <div class="rte multicolumn-card__attribution">{{ block.settings.attribution }}</div>
+              {%- endif -%}
             </div>
           </li>
         {%- endfor -%}
