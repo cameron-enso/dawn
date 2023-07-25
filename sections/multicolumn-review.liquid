@@ -77,6 +77,19 @@
                 <div class="rte multicolumn-card__attribution">{{ block.settings.attribution }}</div>
               {%- endif -%}
             </div>
+            <script type="application/ld+json">
+              {
+                "@context": "http://schema.org",
+                "@type": "Review",
+                "name": "Enso Superfoods Review",
+                "author": {{ block.settings.attribution | json }},
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": {{ block.settings.stars_count | json }}
+                },
+                "description": {{ block.settings.body | default: "" | json }}
+              }
+            </script>
           </li>
         {%- endfor -%}
       </ul>
