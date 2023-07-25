@@ -147,6 +147,12 @@
   padding: 2.5rem;
 }
 
+.multicolumn-card--review .multicolumn-card__info {
+  padding-top: none;
+  padding-bottom: none;
+}
+
+
 .background-none .multicolumn-card__info {
   padding-top: 0;
   padding-left: 0;
