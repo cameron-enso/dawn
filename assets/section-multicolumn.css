@@ -152,6 +152,9 @@
   padding-bottom: 0;
 }
 
+.verified_review {
+  background-color: rgb(var(--color-button));
+}
 
 .background-none .multicolumn-card__info {
   padding-top: 0;
