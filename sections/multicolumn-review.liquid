@@ -70,7 +70,7 @@
 
               {%- if block.settings.stars_count != null -%}
                 {% assign repeat_count = block.settings.stars_count %}
-                {% include 'star-count' with repeat_count %}
+                <span style="color: rgb(var(--color-button));">{% include 'star-count' with repeat_count %}</span>
               {%- endif -%}
 
               {%- if block.settings.attribution != blank -%}
