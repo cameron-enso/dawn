@@ -155,8 +155,7 @@
 .verified_badge {
   font-size: .7em;
   border-radius: 10px;
-  display: flex;
-  display: inline-block;
+  display: inline-flex;
   padding: 0 10px;
   background-color: rgb(var(--color-button));
 }
