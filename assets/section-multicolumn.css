@@ -132,7 +132,7 @@
 }
 
 .multicolumn-card--review .multicolumn-card__info {
-  border: 3px solid var(--color-button);
+  border-left: 3px solid var(--color-button);
 }
 
 .multicolumn-card__info {
