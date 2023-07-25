@@ -47,58 +47,13 @@
         "show_text_below": false
       }
     },
-    "ab77e666-033b-4b19-b5f8-a169864468e9": {
-      "type": "multicolumn-review",
-      "blocks": {
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1": {
-          "type": "column",
-          "settings": {
-            "body": "<p>Slightly sweet, very fine powder that dissolves quickly without any bitter after taste.<\/p>",
-            "attribution": "Amie J. Boston MA, May 2022",
-            "stars_count": 2
-          }
-        },
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2": {
-          "type": "column",
-          "settings": {
-            "body": "<p>Taste is everything. Enso was great-tasting and mixed well without any visible clumping.<\/p>",
-            "attribution": "Shawn C. Austin TX, June 2022",
-            "stars_count": 5
-          }
-        },
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3": {
-          "type": "column",
-          "settings": {
-            "body": "<p>The taste is superior to any other green powder I've tasted.<\/p>",
-            "attribution": "Kira G. Scottsdale AZ, April 22 2022",
-            "stars_count": 5
-          }
-        }
-      },
-      "block_order": [
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1",
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2",
-        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3"
-      ],
-      "settings": {
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "body_text_min_h": 120,
-        "background_style": "none",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Gotta hop off and take a call here. Should have this section wrapped up soon, and then onto the webhooks & conversion!",
             "heading_size": "h1"
           }
         },
@@ -120,6 +75,54 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "ab77e666-033b-4b19-b5f8-a169864468e9": {
+      "type": "multicolumn-review",
+      "blocks": {
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1": {
+          "type": "column",
+          "settings": {
+            "body": "<p>Slightly sweet, very fine powder that dissolves quickly without any bitter after taste.<\/p>",
+            "attribution": "Amie J. Boston MA, May 2022",
+            "stars_count": 2,
+            "verified": true
+          }
+        },
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2": {
+          "type": "column",
+          "settings": {
+            "body": "<p>Taste is everything. Enso was great-tasting and mixed well without any visible clumping.<\/p>",
+            "attribution": "Shawn C. Austin TX, June 2022",
+            "stars_count": 5,
+            "verified": true
+          }
+        },
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3": {
+          "type": "column",
+          "settings": {
+            "body": "<p>The taste is superior to any other green powder I've tasted.<\/p>",
+            "attribution": "Kira G. Scottsdale AZ, April 22 2022",
+            "stars_count": 5,
+            "verified": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "body_text_min_h": 120,
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -259,8 +262,8 @@
   },
   "order": [
     "image_banner",
-    "ab77e666-033b-4b19-b5f8-a169864468e9",
     "rich_text",
+    "ab77e666-033b-4b19-b5f8-a169864468e9",
     "featured_collection",
     "collage",
     "video",
