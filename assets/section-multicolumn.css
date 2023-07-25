@@ -131,6 +131,10 @@
   margin: 0;
 }
 
+.multicolumn-card--review .multicolumn-card__info {
+  border-left: 3px solid var(--color-button);
+}
+
 .multicolumn-card__info {
   padding: 2.5rem;
 }
