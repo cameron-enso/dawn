@@ -58,8 +58,10 @@
               <div class="multicolumn-card__info">
                 {%- if block.settings.body != blank -%}
                   <style type="text/css" scoped>
-                    .rte {
-                      min-height: {{ section.settings.body_text_min_h }}px
+                    @media screen and (min-width: 750px) {
+                      .rte {
+                        min-height: {{ section.settings.body_text_min_h }}px
+                      }
                     }
                   </style>
                   <div class="rte">
