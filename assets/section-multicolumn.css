@@ -98,10 +98,6 @@
   transform: translateX(-50%);
 }
 
-.multicolumn-list__item + .multicolumn-list__item {
-  margin-top: 30px;
-}
-
 @media screen and (max-width: 749px) {
   .multicolumn-list {
     margin: 0;
@@ -111,6 +107,10 @@
   .multicolumn-list:not(.slider) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .multicolumn-list__item--review + .multicolumn-list__item--review {
+    margin-top: 30px;
   }
 }
 
