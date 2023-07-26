@@ -28,18 +28,18 @@
 
     {% render 'meta-tags' %}
 
-    <!-- Google tag (gtag.js) -->
-    <!-- {{ theme | json}} -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2WQ8ELE7Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+    {% if theme.role == 'published' %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2WQ8ELE7Y"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-      gtag('config', 'G-V2WQ8ELE7Y');
-    </script>
+        gtag('config', 'G-V2WQ8ELE7Y');
+      </script>
+    {% endif %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
