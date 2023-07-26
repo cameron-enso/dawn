@@ -57,7 +57,12 @@
             <div class="multicolumn-card multicolumn-card--review content-container">
               <div class="multicolumn-card__info">
                 {%- if block.settings.body != blank -%}
-                  <div class="rte" style="min-height: {{ section.settings.body_text_min_h }}px">
+                  <style type="text/css" scoped>
+                    .rte {
+                      min-height: {{ section.settings.body_text_min_h }}px
+                    }
+                  </style>
+                  <div class="rte">
                     {{ block.settings.body }}
                   </div>
                 {%- endif -%}
