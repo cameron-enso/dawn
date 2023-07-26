@@ -47,6 +47,15 @@
         "show_text_below": false
       }
     },
+    "df08dde2-c00d-47b8-a1fd-2dd4a16bbc0b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "test",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -262,6 +271,7 @@
   },
   "order": [
     "image_banner",
+    "df08dde2-c00d-47b8-a1fd-2dd4a16bbc0b",
     "rich_text",
     "ab77e666-033b-4b19-b5f8-a169864468e9",
     "featured_collection",
