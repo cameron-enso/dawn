@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,37 +41,76 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "b7d8c4ea-012e-4806-a64d-26a48b571ca9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"center\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0800\/5445\/2528\/files\/enso-logo.png?v=1690302463\" alt=\"The enso logo\" style=\"max-width: 100px\" \/><\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "df08dde2-c00d-47b8-a1fd-2dd4a16bbc0b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <div class=\"rich-text__blocks center\">\n    <h2 class=\"rich-text__heading rte inline-richtext h1 scroll-trigger animate--slide-in\" data-cascade=\"\"\n      style=\"--animation-order: 1;\">\n      You don't have to like <br \/> veggies to like Supergreens\n    <\/h2>\n    <div class=\"rich-text__text rte scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 2;\">\n      <p>Verified Enso customers share their thoughts on how Supergreens tastes.<\/p>\n    <\/div>\n  <\/div>\n\n  <hr \/>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 4
+      }
+    },
+    "ab77e666-033b-4b19-b5f8-a169864468e9": {
+      "type": "multicolumn-review",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1": {
+          "type": "column",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "body": "<p>Slightly sweet, very fine powder that dissolves quickly without any bitter after taste.<\/p>",
+            "attribution": "Amie J. Boston MA, May 2022",
+            "stars_count": 5,
+            "verified": true
           }
         },
-        "text": {
-          "type": "text",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2": {
+          "type": "column",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "body": "<p>Taste is everything. Enso was great-tasting and mixed well without any visible clumping.<\/p>",
+            "attribution": "Shawn C. Austin TX, June 2022",
+            "stars_count": 5,
+            "verified": true
+          }
+        },
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3": {
+          "type": "column",
+          "settings": {
+            "body": "<p>The taste is superior to any other green powder I've tasted.<\/p>",
+            "attribution": "Kira G. Scottsdale AZ, April 22 2022",
+            "stars_count": 5,
+            "verified": true
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-1",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-2",
+        "template--20242921423152__ab77e666-033b-4b19-b5f8-a169864468e9-column-3"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "body_text_min_h": 120,
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -79,17 +118,25 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -127,6 +174,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -136,8 +184,9 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -191,9 +240,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,7 +250,9 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "b7d8c4ea-012e-4806-a64d-26a48b571ca9",
+    "df08dde2-c00d-47b8-a1fd-2dd4a16bbc0b",
+    "ab77e666-033b-4b19-b5f8-a169864468e9",
     "featured_collection",
     "collage",
     "video",
