@@ -131,10 +131,10 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#3e5b44",
+          "background": "#0c1911",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "{{ shop.brand.colors.primary[0].background }}",
+          "text": "#d3e5be",
+          "button": "#128059",
           "button_label": "#ffffff",
           "secondary_button_label": "{{ shop.brand.colors.primary[0].background }}",
           "shadow": "#121212"
