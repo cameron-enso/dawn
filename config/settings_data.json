@@ -1,11 +1,9 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/enso-logo-full.png",
     "logo_width": 90,
-    "favicon": "shopify:\/\/shop_images\/enso-logo.png",
-    "type_header_font": "assistant_n4",
+    "type_header_font": "futura_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "futura_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -133,12 +131,12 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#0c1911",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "{{ shop.brand.colors.primary[0].background }}",
+          "text": "#d3e5be",
+          "button": "#128059",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "{{ shop.brand.colors.primary[0].background }}",
           "shadow": "#121212"
         }
       },
@@ -183,17 +181,6 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-50f5e7ad-c5bb-4cc7-901d-3a2b0a5c5856": {
-        "settings": {
-          "background": "{{ shop.brand.colors.primary[0].background }}",
-          "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
