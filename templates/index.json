@@ -50,7 +50,7 @@
     "df08dde2-c00d-47b8-a1fd-2dd4a16bbc0b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n      <div class=\"rich-text__blocks center\"><h2 class=\"rich-text__heading rte inline-richtext h1 scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 1;\">\n                You don't have to like veggies to like supergreens\n              <\/h2><div class=\"rich-text__text rte scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 2;\">\n                <p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>\n              <\/div><\/div>\n    <\/div>",
+        "custom_liquid": "<div class=\"rich-text__wrapper rich-text__wrapper--center page-width\">\n  <div class=\"rich-text__blocks center\">\n    <h2 class=\"rich-text__heading rte inline-richtext h1 scroll-trigger animate--slide-in\" data-cascade=\"\"\n      style=\"--animation-order: 1;\">\n      You don't have to like <br \/> veggies to like Supergreens\n    <\/h2>\n    <div class=\"rich-text__text rte scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 2;\">\n      <p>Verified Enso customers share their thoughts on how Supergreens tastes.<\/p>\n    <\/div>\n  <\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
