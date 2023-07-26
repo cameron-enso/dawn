@@ -98,6 +98,10 @@
   transform: translateX(-50%);
 }
 
+.multicolumn-list__item + .multicolumn-list__item {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 749px) {
   .multicolumn-list {
     margin: 0;
